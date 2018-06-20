@@ -1,0 +1,76 @@
+/*maravilhoso codigo para manter imagem do carousel com as medidas originais!! */
+
+.carousel-inner img {
+    position-relative;
+    min-width: 100%;
+    height: 100%; /* Altura da imagem dentro do Carousel */
+}
+
+
+#btnparticipe{
+	background-color: white;
+	border-radius: 50px;
+	height: 90%;
+	text-align: center;
+	color: #6666ff;
+}
+
+#btnparticipe :hover {
+   color: gray;
+    text-decoration: none;
+}
+
+/* FOOTER*/
+/* link não visitados  */
+#footer a:link {
+   color: black;
+}
+
+/* link visitados */
+#footer a:visited {
+   color: black;
+}
+
+/* mouse no link */
+#footer ul li a:hover {
+   color: gray;
+    text-decoration: none;
+}
+
+/* link selecionados */
+#footer a:active {
+   color: black;
+}
+
+
+
+
+/* FOOTER*/
+
+/* link não visitados  */
+#footer a:link {
+   color: black;
+}
+
+/* link visitados */
+#footer a:visited {
+   color: black;
+}
+
+/* mouse no link */
+#footer ul li a:hover {
+   color: gray;
+    text-decoration: none;
+}
+
+/* link selecionados */
+#footer a:active {
+   color: black;
+}
+
+/* BTNCA botao camon*/
+#btnparticipe{
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+}
