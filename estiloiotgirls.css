@@ -1,3 +1,28 @@
+/*body{
+	background-color: #3D2860;
+}
+*/
+h5,h4,h2,a{
+	font-family: 'Anton',sans-serif;
+	color: white;
+	padding-bottom: 40px;
+}
+h5{
+font-size: 80px;
+
+}
+h3{
+	 font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+#paragsobre{
+	font-size: 30px;
+}
+
 /*maravilhoso codigo para manter imagem do carousel com as medidas originais!! */
 
 .carousel-inner img {
@@ -73,4 +98,96 @@
 	border-radius: 50px;
 	color: white;
 	text-align: center;
+}
+.skill-column {
+  display: flex;
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 768px)  {
+  .skill-column {
+    flex-direction: column;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 320px) {
+.skill-column {
+    flex-direction: column;
+    width: 80%;
+  }  
+}
+.skill-itens {
+  width: 35%;
+}
+@media only screen and (max-width: 1024px)  {
+.skill-itens {
+  width: 45%;
+  }
+}
+@media only screen and (max-width: 768px)  {
+.skill-itens {
+  width: 100%;
+  }
+}
+
+.skill-itens:last-child {
+  padding-left: 10%;
+  padding-bottom: 85px;
+  width: 35%;
+}
+@media only screen and (max-width: 1024px)  {
+  .skill-itens:last-child {
+    padding-left: 0%;
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px)  {
+  .skill-itens:last-child {
+    width: 100%;
+  }
+}
+.skill-itens>div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-bottom: 12px;
+  width: 80%;
+}
+@media only screen and (max-width: 1024px)  {
+  .skill-itens>div {
+    padding-left: 15%;
+  }
+}
+@media only screen and (max-width: 768px)  {
+  .skill-itens>div {
+    width: 100%;
+    padding-left: 12%;
+  }
+}
+
+.skill {
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  background-color: #5D1277;
+  border: 2px solid #5D1277;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+.no-skill {
+  background-color: #ffffff;
+}
+#album{
+	text-color: white;
+background-image: url("imagens/sobre.png");
+}
+
+#sobre h2{
+	padding-bottom: 40px;
+}
+
+#paragsobre{
+	padding: 50px;
 }

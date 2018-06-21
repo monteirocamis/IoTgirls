@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IoT girls</title>
+    
+<!--fonte textos-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!--link da fonte anton-->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="estiloiotgirls.css">
+
+  <link rel="stylesheet" href="estiloiotgirls.css">
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
@@ -23,7 +30,7 @@
 
   
     <!-- NavBar -->
-    <nav id="navbar" class="navbar navbar-expand-lg  navbar-dark fixed-top" style="background-color: #6666ff;opacity: 0.7">
+    <nav id="navbar" class="navbar navbar-expand-lg  navbar-dark fixed-top" style="background-color: #3D2860;opacity: 0.7">
 
         <div class="container">
 
@@ -47,10 +54,10 @@
                         <a class="nav-link" href="projetosiotgirls.html" style="text-align: center;">Projetos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contatoiotgirls.html" style="text-align: center;">Contato</a>
+                        <a class="nav-link" href="blogiotgirls.html" style="text-align: center;">Blog</a>
                     </li>
   <li class="nav-item dropdown">
-                        <a id="btnparticipe"  class="nav-link " target="_blank" href="#" style="color: #6666ff;">Participe!</a>
+                        <a id="btnparticipe"  class="nav-link " target="_blank" href="https://goo.gl/forms/SBnIKbbovj3wEhVW2" style="color: #6666ff;">Participe!</a>
                     </li>
                     
                 </ul>
@@ -59,11 +66,81 @@
         </div>
     </nav>
 
+<!-- Carousel -->
+
+    <div class="container-fluid p-0"  id="header">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                    <!-- imagens for slides -->
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="imagens/carouselfit1.png" alt="first slide">
+                            <div class="carousel-caption" >
+                              <h5>Internet das manas !</h5>
+                              <p>Tire seus projetos do papel junto com outras mulheres engajadas em mudar o mundo.</p>
+                            </div>
+                        </div>
+</div>
+<!-- Equipe -->
+
+        <div class="container" style="background-color: #3D2860">
+            <div class="row" style="text-align: center ; padding: 40px;color: white;">
+              <div class="col-sm-12" style="margin: 0 auto;padding-bottom: 20px;">
+                <h2>Organizadoras</h2>
+              </div>
+
+                <div class="col-sm-4">
+                    <img src="imagens/camila.png" class="rounded-circle">
+                    <h3>Camila </h3>
+
+                </div>
+                <div class="col-sm-4">
+                    <img src="imagens/bruna.png" class="rounded-circle">
+                    <h3>Bruna</h3>
+                </div>
+                <div class="col-sm-4">
+                    <img src="imagens/debora.png" class="rounded-circle">
+                    <h3>Débora </h3>
+                </div>
+            </div>
+        </div>
+    </div> 
+ <!-- sobre -->
+<div id="sobre">
+
+        <div class="container" style="background-color: #3D2860">
+            <div class="row" style="text-align: center ; padding: 40px;color: white;">
+              <div class="col-sm-12" style="margin: 0 auto;padding-bottom: 20px;">
+              
+              </div>
+             
+                <div class="col-sm-6" style="margin: 0 auto;">
+                   <h2>Sobre</h2>
+                    <img src="imagens/sobre.png" style="border-radius: 100px;">
+                   
+                </div>
+             <div class="col-m-6">
+                
+                    <p id="paragsobre">Somos um grupo de mulheres que se unem em encontros marcados, presenciais ou com integrantes online, para desenvolver, estudar e prototipar seus projetos de internet das coisas.</p>
+                </div>
+                 
+            </div>
+        </div>
+    </div> 
+
+
+
+<!-- participe -->
+
  <!-- footer -->
 
    <!--  footer logo-->
 
-  <div id="footer" class="navbar navbar-light  d-flex justify-content-around p-4" style="background-color: #6666ff;" >
+  <div id="footer" class="navbar navbar-dark bg-dark  d-flex justify-content-around p-4" >
   <a class="navbar-brand" href="homeiotgirls.html">
   <img src="imagens/iotgirlslogo.jpg" style="font-family: Verdana, Geneva, Tahoma, sans-serif;" alt="logo escrito ">
   </a>
@@ -72,18 +149,18 @@
 
   <ul  class="nav flex-column" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
     <li class="nav-item active">
-      <a class="nav-link" href="sobreiotgirls.html">Sobre
+      <a class="nav-link" style="color: white;"href="sobreiotgirls.html">Sobre
        <span class="sr-only">(current)</span>
      </a>
   </li>
   <li class="nav-item">
-      <a class="nav-link" href="projetosiotgirls.html">Projetos</a>
+      <a class="nav-link" style="color: white;href="projetosiotgirls.html">Projetos</a>
     </li>
 <li class="nav-item">
-      <a class="nav-link" href="contatoiotgirls.html">Contato</a>
+      <a class="nav-link"style="color: white; href="blogiotgirls.html">Blog</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Participe!</a>
+      <a class="nav-link" style="color: white;href="#">Participe!</a>
     </li>
 
   
