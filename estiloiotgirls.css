@@ -1,22 +1,39 @@
-/*body{
-	background-color: #3D2860;
-}
-*/
-h5,h4,h2,a{
+
+
+h5,h4,a{
 	font-family: 'Anton',sans-serif;
 	color: white;
 	padding-bottom: 40px;
+
 }
+
+
+h2{
+  font-family: 'Anton',sans-serif;
+  color: white;
+}
+
 h5{
+font-size: 50px;
+}
+
+
+
+
+h1{
 font-size: 80px;
+font-family: 'Anton',sans-serif;
+color: #5D1277;
 
 }
 h3{
 	 font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   color: #5D1277;
 }
 p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #paragsobre{
@@ -25,6 +42,12 @@ p{
 
 /*maravilhoso codigo para manter imagem do carousel com as medidas originais!! */
 
+#fotojumbotron{
+  position-relative;
+    min-width: 100%;
+    height: 100%; /* Altura da imagem dentro do Carousel */
+}
+
 .carousel-inner img {
     position-relative;
     min-width: 100%;
@@ -32,153 +55,62 @@ p{
 }
 
 
-#btnparticipe{
-	background-color: white;
-	border-radius: 50px;
-	height: 90%;
-	text-align: center;
-	color: #6666ff;
+
+
+
+#btnparticipenav{
+  background-color: white;
+  border-radius: 50px;
+  color: gray !important;
+  height: 90%;
+  text-align: center;;
+}
+#btnparticipenav:hover {
+  background-color:  #5D1277 !important;
+  border-radius: 50px;
+  color: gray !important;
+  height: 90%;
+  text-align: center;;
 }
 
-#btnparticipe :hover {
-   color: gray;
-    text-decoration: none;
+#btnparticipe {
+  background-color: white !important;
+   color: #5D1277 !important;
+   text-decoration: none;
+   border-radius: 50px;
 }
+
+#btnparticipe:hover {
+  background-color:  #5D1277 !important;
+   color: white !important;
+   text-decoration: none;
+   border-radius: 50px;
+}
+
+
 
 /* FOOTER*/
 /* link não visitados  */
 #footer a:link {
-   color: black;
+   color: white;
 }
 
 /* link visitados */
 #footer a:visited {
-   color: black;
+   color: white;
 }
 
 /* mouse no link */
-#footer ul li a:hover {
+#footer a:hover {
    color: gray;
     text-decoration: none;
 }
 
 /* link selecionados */
 #footer a:active {
-   color: black;
+   color: white;
 }
 
-
-
-
-/* FOOTER*/
-
-/* link não visitados  */
-#footer a:link {
-   color: black;
-}
-
-/* link visitados */
-#footer a:visited {
-   color: black;
-}
-
-/* mouse no link */
-#footer ul li a:hover {
-   color: gray;
-    text-decoration: none;
-}
-
-/* link selecionados */
-#footer a:active {
-   color: black;
-}
-
-/* BTNCA botao camon*/
-#btnparticipe{
-	border-radius: 50px;
-	color: white;
-	text-align: center;
-}
-.skill-column {
-  display: flex;
-  justify-content: flex-start;
-}
-@media only screen and (max-width: 768px)  {
-  .skill-column {
-    flex-direction: column;
-    width: 70%;
-  }
-}
-@media only screen and (max-width: 320px) {
-.skill-column {
-    flex-direction: column;
-    width: 80%;
-  }  
-}
-.skill-itens {
-  width: 35%;
-}
-@media only screen and (max-width: 1024px)  {
-.skill-itens {
-  width: 45%;
-  }
-}
-@media only screen and (max-width: 768px)  {
-.skill-itens {
-  width: 100%;
-  }
-}
-
-.skill-itens:last-child {
-  padding-left: 10%;
-  padding-bottom: 85px;
-  width: 35%;
-}
-@media only screen and (max-width: 1024px)  {
-  .skill-itens:last-child {
-    padding-left: 0%;
-    width: 45%;
-  }
-}
-@media only screen and (max-width: 768px)  {
-  .skill-itens:last-child {
-    width: 100%;
-  }
-}
-.skill-itens>div {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-  padding-left: 20%;
-  padding-bottom: 12px;
-  width: 80%;
-}
-@media only screen and (max-width: 1024px)  {
-  .skill-itens>div {
-    padding-left: 15%;
-  }
-}
-@media only screen and (max-width: 768px)  {
-  .skill-itens>div {
-    width: 100%;
-    padding-left: 12%;
-  }
-}
-
-.skill {
-  border-radius: 50%;
-  width: 13px;
-  height: 13px;
-  background-color: #5D1277;
-  border: 2px solid #5D1277;
-  box-sizing: border-box;
-  margin-right: 5px;
-}
-
-.no-skill {
-  background-color: #ffffff;
-}
 #album{
 	text-color: white;
 background-image: url("imagens/sobre.png");
@@ -188,6 +120,83 @@ background-image: url("imagens/sobre.png");
 	padding-bottom: 40px;
 }
 
-#paragsobre{
-	padding: 50px;
+
+#jumbo{
+  color: #5D1277;
+  font-family: 'Open Sans', sans-serif ;
+  padding: 50px;
+ text-align: center;
+}
+
+
+/*paralax*/
+
+/*paralax header*/
+
+.header-site{
+  background-image: url(imagens/pixabayled.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 400px;
+  padding-bottom: 400px;
+
+  
+}
+
+
+
+.content-sobre{
+  background-image: url(imagens/lily.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
+#sobre-escrito{
+  background-color: #3D2860;
+  color: white;
+}
+
+#img-divisoria{
+  background-image: url(imagens/.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.content-kit{
+  background-image: url(imagens/lily.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#faixa-proximoencontro{
+  padding: 20px;
+}
+
+#faixa-participe{
+  padding: 20px;
+}
+#header-projetos{
+  background-image: url(imagens/pixabaynote.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 400px;
+  padding-bottom: 400px;
+
+  
 }
